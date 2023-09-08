@@ -1,4 +1,4 @@
-module github.com/Staffbase/syseleven-exporter
+module github.com/frittenlab/syseleven-exporter
 
 go 1.13
 
