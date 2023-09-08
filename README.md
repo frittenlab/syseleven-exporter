@@ -1,4 +1,4 @@
-# SysEleven Exporter
+# SysEleven Exporter Created by Staffbase
 
 Export your quota and current usage from the SysEleven API as Prometheus metrics. The exporter uses the `https://api.cloud.syseleven.net:5001` API endpoint to get the quota and usage statistics for all SysEleven resources.
 
@@ -9,7 +9,7 @@ The SysEleven Exporter can be deployed using the [vfm/syseleven-exporter-chart](
 Clone the repository and build the binary:
 
 ```sh
-git clone git@github.com:Staffbase/syseleven-exporter.git
+git clone git@github.com:frittenlab/syseleven-exporter.git
 make build
 ```
 
@@ -28,10 +28,10 @@ Then run the exporter:
 ./bin/syselevenexporter
 ```
 
-A Docker image is available at `staffbace/syseleven-exporter:<TAG>` and can be retrieved via:
+A Docker image is available at `frittenbude/syseleven-exporter:<TAG>` and can be retrieved via:
 
 ```sh
-docker pull staffbace/syseleven-exporter:<TAG>
+docker pull frittenbude/syseleven-exporter:<TAG>
 ```
 
 ## Metrics

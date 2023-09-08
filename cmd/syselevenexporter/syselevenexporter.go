@@ -23,8 +23,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Staffbase/syseleven-exporter/pkg/exporter"
-	"github.com/Staffbase/syseleven-exporter/pkg/version"
+	"github.com/frittenlab/syseleven-exporter/pkg/exporter"
+	"github.com/frittenlab/syseleven-exporter/pkg/version"
 
 	"github.com/go-chi/chi"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
