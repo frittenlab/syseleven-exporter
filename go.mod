@@ -8,5 +8,5 @@ require (
 	github.com/gophercloud/gophercloud v1.6.0
 	github.com/prometheus/client_golang v1.2.1
 	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v0.0.7
+	github.com/spf13/cobra v1.7.0
 )
