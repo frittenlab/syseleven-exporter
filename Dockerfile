@@ -8,7 +8,7 @@ COPY . .
 RUN make build
 
 
-FROM alpine:3.18
+FROM alpine:3.20
 
 ARG REVISION
 ARG VERSION
